@@ -48,11 +48,11 @@ For More Details Click Help Button Below..
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
     
-<b>➥ Mine😘</b> : <b><i><a href="https://t.me/Soulsharper">Amal</a></i></b>
+<b>➥ My Mine😘</b> : <b><i><a href="https://t.me/Soulsharper">Amal</a></i></b>
 
 <b>➥ Language</b> : <code>Python3</code>
 
 <b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
 
-<b>➥ Join Our Channel 😍</b> : <i><a href=https://t.me/musi_c_world">Click Me</a></i>
+<b>➥ Join Our Channel 😍</b> : <i><a href="https://t.me/musi_c_world">Click Me</a></i>
 """
