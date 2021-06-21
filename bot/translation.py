@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
-<i>Am Just A Advance Auto Filter Bot....😉
+<i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
 
 You Can't Add Me In Your Group...😎
 I'm Working With @Ron_y_reing_Z 🔥🔥
