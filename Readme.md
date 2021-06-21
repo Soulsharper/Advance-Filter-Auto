@@ -73,7 +73,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/Amal759/-musi_c_world-Auto-Filter-Bot/tree/main">
+<a href="https://heroku.com/deploy?template=https://https://github.com/Soulsharper/Advance-Filter-Auto">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
