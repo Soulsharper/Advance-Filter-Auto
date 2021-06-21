@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Channel', url="https://t.me/numberonemovieworld"
+                                    'Our Channel 😍', url="https://t.me/numberonemovieworld"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Channel', url="https://t.me/numberonemovieworld"
+                                    'Our Channel 😍', url="https://t.me/numberonemovieworld"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Our Channel', url="https://t.me/musi_c_world"
+                                    'Our Channel 😍', url="https://t.me/musi_c_world"
                                 )
                         ]
                     ]
@@ -89,7 +89,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Our Channel', url='https://t.me/musi_c_world'),
+        InlineKeyboardButton('Our Channel 😍', url='https://t.me/musi_c_world'),
         InlineKeyboardButton('Owner 👑', url ='https://t.me/Ron_y_reing_Z')
     ],[
         InlineKeyboardButton('Request Your Song Or Movies ⚡️', url='https://t.me/muzicworldchat')
