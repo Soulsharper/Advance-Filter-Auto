@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = "@numberonemovieworld",
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -50,7 +50,7 @@ async def start(bot, update):
             await bot.send_video(
                 chat_id=update.chat.id,
                 video = file_id,
-                caption = caption,
+                caption = "@numberonemovieworld",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
@@ -92,7 +92,7 @@ async def start(bot, update):
         InlineKeyboardButton('Our Channel 😍', url='https://t.me/musi_c_world'),
         InlineKeyboardButton('Owner 👑', url ='https://t.me/Ron_y_reing_Z')
     ],[
-        InlineKeyboardButton('Request Your Song Or Movies ⚡️', url='https://t.me/muzicworldchat')
+        InlineKeyboardButton('Request Your Movies ⚡️', url='https://t.me/moviezsworlds')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
