@@ -4,16 +4,12 @@
 
 class Translation(object):
     
-    send_photo = await message.reply_photo(
-        caption=Script.START_MSG.format(message.from_user.mention),
-photo="https://telegra.ph/file/cac39e9519624947123fd.jpg",
-        disable_web_page_preview=True,
-        reply_markup=InlineKeyboardMarkup
-
+    START_TEXT = """<b>Hey {}!!</b>
+<i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
 
     
     HELP_TEXT = """
-   ><i><u>How To Use Me!?</u></i></b>
+   >b<i><u>How To Use Me!?</u></i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
