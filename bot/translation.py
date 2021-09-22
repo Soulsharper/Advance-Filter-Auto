@@ -7,10 +7,9 @@ class Translation(object):
     START_TEXT = """<b>Hey {}!!</b>
 <i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
 
-    
-    HELP_TEXT = """
-   >b<i><u>How To Use Me!?</u></i></b>
-
+  </i>"""    
+   HELP_TEXT = """
+<b><i><u>How To Use Me!?</u></i></b>
 <i>
 -> Add Me To Any Group And Make Me Admin
 -> Add Me To Your Desired Channel
