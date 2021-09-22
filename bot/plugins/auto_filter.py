@@ -128,7 +128,8 @@ async def auto_filter(bot, update):
             
             results.append(
                 [
-                    InlineKeyboardButton(button_text, url=file_link)
+                    InlineKeyboardButton(file_name, url=file_link)
+                    InlineKeyboardButton(file_size, url=file_link)
                 ]
             )
         
@@ -174,13 +175,13 @@ async def cb_navg(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("🦋Go To Next Page🦋", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("N E X T ➪", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
         # Just A Decaration
         result[0].append([
-            InlineKeyboardButton(f"🔰 Page 1/{len_result if len_result < max_pages else max_pages} 🔰", callback_data="ignore")
+            InlineKeyboardButton(f"📑 Page 1/{len_result if len_result < max_pages else max_pages} 📑", callback_data="ignore")
         ])
         
         
