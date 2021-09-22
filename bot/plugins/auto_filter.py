@@ -131,12 +131,22 @@ async def auto_filter(bot, update):
         ])
             
         
-    else:
-        Send_message = await bot.send_message(
-            chat_id=update.chat.id,
-            text="<b>Couldn't Find This Movie.Try Again ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺</b>",
-            reply_to_message_id=update.message_id
-        )
+    await update.reply_message(
+  "Check Your Spelling",
+  reply_markup=InlineKeyboardMarkup([
+    [
+       InlineKeyboardButton('Click Me', 'popup')
+    ]
+  ])
+)
+
+
+@Client.on_callback_query(filters.regex(r"popup"), group=3)
+async def cb_navg(bot, update):
+  await update.answer('Your PopUp Text Here..!', True)
+
+
+       )
         await asyncio.sleep(30)
         await Send_message.delete()
 
