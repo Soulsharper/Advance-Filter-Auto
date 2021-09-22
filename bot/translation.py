@@ -4,16 +4,11 @@
 
 class Translation(object):
     
-    await cmd.reply_photo(photo='https://telegra.ph/file/cac39e9519624947123fd.jpg', caption=START_MSG.format(cmd.from_user.mention),
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [
-                InlineKeyboardButton('Yo', url='https://t.me/moviesworldseries'),
-                InlineKeyboardButton('BUTTON', url='https://t.me/moviesworldseries')
-                    ]
-                ]
-            )
-        )
+    await message.reply_photo(
+        caption=Script.START_MSG.format(message.from_user.mention),
+photo="url",
+        disable_web_page_preview=True,
+        reply_markup=InlineKeyboardMarkup
 
 
     
