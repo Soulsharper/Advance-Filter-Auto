@@ -212,9 +212,8 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_photo(
+            await bot.send_message(
                 chat_id = update.chat.id,
-                photo= MASSAGE_PHOTO,
                 caption=f"<b>🗂️Total File :- {(len_results)} </b>\n<b>🎬File Name :-</b> <code>{query}</code>\n<b>👤Requested By</b> {update.from_user.mention}",
                 reply_markup=reply_markup,
                 parse_mode="html",
