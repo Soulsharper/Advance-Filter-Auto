@@ -4,19 +4,13 @@
 
 class Translation(object):
     
-    START_IMAGE= 
-   await bot.send_photo(
+    START_IMG="""https://telegra.ph/file/cac39e9519624947123fd.jpg"""
 
-  chat_id=update.chat.id,
-
-  photo="https://telegra.ph/file/cac39e9519624947123fd.jpg",
-
-  reply_markup=reply_markup)
 
 
     
     HELP_TEXT = """
-<b><i><u>How To Use Me!?</u></i></b>
+   ><i><u>How To Use Me!?</u></i></b>
 
 <i>
 -> Add Me To Any Group And Make Me Admin
