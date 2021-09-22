@@ -4,8 +4,16 @@
 
 class Translation(object):
     
-    START_IMG="""https://telegra.ph/file/cac39e9519624947123fd.jpg"""
-
+    await cmd.reply_photo(photo='telegr.aph.link', caption=START_MSG.format(cmd.from_user.mention),
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                InlineKeyboardButton('Yo', url='https://t.me/moviesworldseries'),
+                InlineKeyboardButton('BUTTON', url='https://t.me/moviesworldseries')
+                    ]
+                ]
+            )
+        )
 
 
     
