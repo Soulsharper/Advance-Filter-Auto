@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hey {}!!</b>
+    START_PHOTO= """<b>Hey {}!!</b>
 <i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
 
 app.send_photo("Vincenzo", "https://telegra.ph/file/cac39e9519624947123fd.jpg", caption="Holidays!"
