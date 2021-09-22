@@ -4,11 +4,16 @@
 
 class Translation(object):
     
-    START_PHOTO= """<b>Hey {}!!</b>
-<i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
+    START_IMAGE= 
+   await bot.send_photo(
 
-app.send_photo("Vincenzo", "https://telegra.ph/file/cac39e9519624947123fd.jpg", caption="Holidays!"
-</i>"""    
+  chat_id=update.chat.id,
+
+  photo="https://telegra.ph/file/cac39e9519624947123fd.jpg",
+
+  reply_markup=reply_markup)
+
+
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
