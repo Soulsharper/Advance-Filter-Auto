@@ -7,10 +7,7 @@ class Translation(object):
     START_TEXT = """<b>Hey {}!!</b>
 <i>My Name Is Vincenzo Cassano ☺ ....@ CASSANO FAM😎
 
-You Can't Add Me In Your Group...😎
-I'm Working With @Ron_y_reing_Z 🔥🔥
-For More Details Click Help Button Below..
-@musi_c_world
+app.send_photo("Vincenzo", "https://telegra.ph/file/cac39e9519624947123fd.jpg", caption="Holidays!"
 </i>"""    
     
     HELP_TEXT = """
