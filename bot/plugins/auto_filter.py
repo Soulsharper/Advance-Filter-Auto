@@ -44,7 +44,7 @@ async def auto_filter(bot, update):
     
     if not configs:
         return
-    
+   
     allow_video = configs["types"]["video"]
     allow_audio = configs["types"]["audio"] 
     allow_document = configs["types"]["document"]
@@ -58,6 +58,13 @@ async def auto_filter(bot, update):
     show_invite = (False if pm_file_chat == True else show_invite) # turn show_invite to False if pm_file_chat is True
     
     filters = await db.get_filters(group_id, query)
+    
+    
+    [
+
+                    InlineKeyboardButton("📢 Join My Main Channel 📢", url=f"https://t.me/numberonemovieworld")
+
+                ]
     
     if filters:
         for filter in filters: # iterating through each files
