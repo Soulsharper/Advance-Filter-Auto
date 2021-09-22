@@ -126,7 +126,25 @@ async def auto_filter(bot, update):
             )
         
     else:
-        return # return if no files found for that query
+        Send_message = await bot.send_message(
+            chat_id=update.chat.id,
+            await update.reply_message(
+  "check Spelling",
+  reply_markup=InlineKeyboardMarkup([
+    [
+       InlineKeyboardButton('Click Me', 'popup')
+    ]
+  ])
+)
+
+
+@Client.on_callback_query(filters.regex(r"popup"), group=3)
+async def cb_navg(bot, update):
+  await update.answer('Your PopUp Text Here..!', True)
+           reply_to_message_id=update.message_id
+        )
+        await asyncio.sleep(5)
+        await Send_message.delete()
     
 
     if len(results) == 0: # double check
