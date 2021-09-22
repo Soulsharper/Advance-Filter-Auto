@@ -6,7 +6,7 @@ class Translation(object):
     
     await message.reply_photo(
         caption=Script.START_MSG.format(message.from_user.mention),
-photo="url",
+photo="https://telegra.ph/file/cac39e9519624947123fd.jpg",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup
 
