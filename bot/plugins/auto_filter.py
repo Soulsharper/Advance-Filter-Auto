@@ -141,9 +141,11 @@ async def auto_filter(bot, update):
 @Client.on_callback_query(filters.regex(r"popup"), group=3)
 async def cb_navg(bot, update):
   await update.answer('Your PopUp Text Here..!', True)
-           reply_to_message_id=update.message_id
+           
+            reply_to_message_id=update.message_id
         )
-        await asyncio.sleep(5)
+        
+        await asyncio.sleep(15)
         await Send_message.delete()
     
 
