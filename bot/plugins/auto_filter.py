@@ -129,7 +129,9 @@ async def auto_filter(bot, update):
             InlineKeyboardButton("📂 " + file_name, url=file_link),
             InlineKeyboardButton(file_size, url=file_link)
         ])
-            
+
+       else:
+     
        Send_message = await bot.send_message(
             chat_id=update.chat.id,
          app.answer_callback_query(query_id, text=check,show_alert=True)",
