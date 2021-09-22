@@ -137,7 +137,9 @@ async def auto_filter(bot, update):
         )
         await asyncio.sleep(5)
         await Send_message.delete()
-        
+
+    else:
+        return # return if no files found for that query      
          
      if len(results) == 0: # double check
         return
