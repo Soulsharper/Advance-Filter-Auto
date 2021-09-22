@@ -4,7 +4,7 @@
 
 class Translation(object):
     
-    await cmd.reply_photo(photo='telegr.aph.link', caption=START_MSG.format(cmd.from_user.mention),
+    await cmd.reply_photo(photo='https://telegra.ph/file/cac39e9519624947123fd.jpg', caption=START_MSG.format(cmd.from_user.mention),
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
