@@ -21,6 +21,9 @@ from bot.database import Database # pylint: disable=import-error
 
 db = Database()
 
+@Client.on_callback_query(filters.regex(r"popup"), group=1)
+async def cb_popup(bot, update):
+  await update.answer('Your PopUp Text Here..!', show_alert=True)
 
 @Client.on_callback_query(filters.regex(r"navigate\((.+)\)"), group=2)
 async def cb_navg(bot, update: CallbackQuery):
