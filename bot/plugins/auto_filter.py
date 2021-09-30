@@ -142,7 +142,12 @@ async def auto_filter(bot, update):
 
             text="<b>Couldn't Find This Movie.Try Again ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺</b>",
 
-            reply_to_message_id=update.message_id
+            reply_to_message_id=update.message_id,
+            
+            reply_markup=InlineKeyboardMarkup([
+    [
+       InlineKeyboardButton('Click Me', callback_data='popup')
+    ]])
 
         )
 
